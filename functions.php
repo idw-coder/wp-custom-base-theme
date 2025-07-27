@@ -23,14 +23,6 @@ function custombase_enqueue_assets()
         filemtime(get_template_directory() . '/assets/css/style.css')
     );
 
-    // Tailwindの読み込み
-    wp_enqueue_style(
-        'custombase-tailwind',
-        get_template_directory_uri() . '/assets/css/tailwind.css',
-        array(),
-        filemtime(get_template_directory() . '/assets/css/tailwind.css')
-    );
-
     // JSの読み込み
     wp_enqueue_script(
         'custombase-script',
