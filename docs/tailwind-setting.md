@@ -62,3 +62,8 @@ function custombase_enqueue_assets()
 }
 add_action('wp_enqueue_scripts', 'custombase_enqueue_assets');
 ```
+
+.gitignore
+```
+node_modules/
+```
