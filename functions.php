@@ -47,7 +47,7 @@ add_action('after_setup_theme', function () {
  * bbPressデバッグ機能
  */
 if (defined('WP_DEBUG') && WP_DEBUG) {
-    require_once get_stylesheet_directory() . '/includes/bbpress-template-debugger.php';
+    // require_once get_stylesheet_directory() . '/includes/bbpress-template-debugger.php';
 }
 /**
  * テンプレートファイル内のハードコードされた文字列も変更

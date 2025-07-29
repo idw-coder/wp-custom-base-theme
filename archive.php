@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main id="main" class="site-main py-8 flex-grow">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 max-w-4xl">
         <h1 class="text-3xl font-bold mb-6"><?php the_archive_title(); ?></h1>
 
         <?php if (have_posts()) : ?>

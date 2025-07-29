@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main id="main" class="site-main py-8 flex-grow">
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto max-w-4xl px-4">
         <?php if (have_posts()) : ?>
             <?php while (have_posts()) : the_post(); ?>
                 <article id="post-<?php the_ID(); ?>" <?php post_class('mb-8 border-b pb-4'); ?>>
