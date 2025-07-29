@@ -9,8 +9,13 @@
 
 <body <?php body_class('min-h-screen flex flex-col'); ?>>
 
+<<<<<<< HEAD
     <header class="bg-white shadow-sm py-4">
         <div class="container mx-auto px-4 max-w-4xl flex justify-between items-center">
+=======
+    <header class="bg-white shadow-md py-4">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+>>>>>>> 78e199aab7c4beb01cf8c9b0dfcbc3fce34820e7
             <div class="site-branding">
                 <h1 class="text-xl font-bold">
                     <a href="<?php echo esc_url(home_url('/')); ?>" class="text-gray-800 hover:text-blue-600">
