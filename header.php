@@ -9,7 +9,7 @@
 
 <body <?php body_class('min-h-screen flex flex-col'); ?>>
 
-    <header class="bg-white shadow-sm py-4">
+    <header class="bg-white shadow-md py-4">
         <div class="container mx-auto px-4 flex justify-between items-center">
             <div class="site-branding">
                 <h1 class="text-xl font-bold">
