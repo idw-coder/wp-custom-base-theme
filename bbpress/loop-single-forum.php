@@ -35,7 +35,7 @@ if (defined('WP_DEBUG') && WP_DEBUG && is_user_logged_in() && current_user_can('
 
 		<?php do_action('bbp_theme_before_forum_title'); ?>
 
-		<a class="bbp-forum-title" href="<?php bbp_forum_permalink(); ?>"><?php bbp_forum_title(); ?></a>
+		<a class="bbp-forum-title text-blue-500 font-bold text-sm hover:opacity-75" href="<?php bbp_forum_permalink(); ?>"><?php bbp_forum_title(); ?></a>
 
 		<?php do_action('bbp_theme_after_forum_title'); ?>
 
